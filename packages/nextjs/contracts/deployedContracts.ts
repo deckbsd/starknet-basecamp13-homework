@@ -7,7 +7,7 @@ const deployedContracts = {
   devnet: {
     CounterContract: {
       address:
-        "0x5f26330f6b8604296a7b4d160ce27756024a2344da7a691e5e2aa1ba76bd413",
+        "0x2d8049c00b46e9e778ea4cfedcfb5dc4697c5c1baa36eefa482b8dc57c18362",
       abi: [
         {
           type: "impl",
@@ -225,7 +225,7 @@ const deployedContracts = {
           kind: "enum",
           variants: [
             {
-              name: "CounterChange",
+              name: "CounterChanged",
               type: "contracts::counter::CounterContract::CounterChanged",
               kind: "nested",
             },
@@ -238,7 +238,7 @@ const deployedContracts = {
         },
       ],
       classHash:
-        "0x475664557303e4d37ac99c50919c2da09c2b499e8d19941c5b3a1f70b665969",
+        "0x57a697180b3dc2168a73982f11355a1cc26715426baf148fd1dcc22cd9ceb9c",
     },
   },
 } as const;
